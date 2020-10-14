@@ -1,0 +1,104 @@
+@keyframes animation {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.animation {
+  animation-name: animation;
+  animation-duration: 300ms;
+}
+#container {
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#meuLogin {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #fff;
+  width: 370px;
+  height: 380px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px black;
+  display: none;
+  z-index: 10;
+}
+
+.input {
+  width: 300px;
+  padding: 14px 16px;
+  margin: 12px 34px;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+#botao {
+  width: 300px;
+  font-size: 2rem;
+  padding: 14px 16px;
+  margin: 20px 36px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #1877f2;
+  color: white;
+}
+#botao:hover {
+  background: #155bb6;
+  transition: 0.2s;
+}
+#botao:active {
+  background: #09438f;
+}
+#nomeLogin {
+  margin-bottom: unset;
+  margin-top: 60px;
+  color: #1877f2;
+  font-weight: bold;
+  font-size: 6rem;
+  text-align: center;
+}
+#fecharLogin {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  animation-name: down;
+}
+#one {
+  height: 5px;
+  width: 100%;
+  background: #1877f2;
+  transform: rotate(45deg) translate(7px, 7px);
+}
+#two {
+  height: 5px;
+  width: 100%;
+  background: #1877f2;
+  transform: rotate(135deg) translate(3px, -4px);
+}
+#error {
+  width: 100%;
+  position: absolute;
+  color: red;
+  text-align: center;
+}

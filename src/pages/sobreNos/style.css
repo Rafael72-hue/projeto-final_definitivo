@@ -1,0 +1,245 @@
+#footer_sobre_nos {
+  text-align: center;
+  padding: 40px;
+}
+
+#section_sobre_nos {
+  margin-top: 65px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+}
+
+.image-profile {
+  height: 200px;
+  border-radius: 100%;
+  border: 5px solid white;
+  box-shadow: 0px 0px 10px #00000059;
+}
+
+#flex_layout {
+  width: 95%;
+  max-width: 940px;
+  margin: auto;
+  border-radius: 15px;
+  display: flex;
+  height: 437px;
+}
+
+.item_perfil {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto auto;
+  width: 200px;
+}
+
+.botao_sobre_nos {
+  width: fit-content;
+  font-size: 1.6rem;
+  padding: 12px 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #15556f;
+  color: white;
+}
+
+.botao_sobre_nos a {
+  color: white;
+  text-decoration: none;
+}
+
+#titulo-perfis {
+  color: #607d8b;
+  text-align: center;
+  margin-top: 23px;
+}
+
+#div_tecnologias_usadas {
+  width: 95%;
+  max-width: 940px;
+  height: 437px;
+  margin: 690px auto 80px;
+  border-radius: 15px;
+}
+#titulo_tecnologias_usadas {
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  color: #5f7d8b;
+  right: 0;
+  left: 0;
+  top: 590px;
+  text-align: center;
+  margin-top: 50px;
+}
+.icones_tecnologias_usadas {
+  height: 50px;
+  width: 50px;
+}
+#aside_direito_tecnologias {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  float: right;
+  height: 100%;
+  justify-content: center;
+  border-left: 1px solid #dadada;
+}
+#aside_esquerdo_tecnologias {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+.div_icones {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 25px;
+  font-weight: bold;
+}
+#img_capa_tecnologias {
+  height: 100%;
+}
+/* RESPONSIVIDADE */
+
+@media (max-width: 895px) {
+  #flex_layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    height: 660px;
+  }
+  .itens_de_baixo {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #div_tecnologias_usadas {
+    margin: 900px auto 80px;
+  }
+  #titulo_tecnologias_usadas {
+    top: 805px;
+  }
+}
+@media (max-width: 850px) {
+  #div_tecnologias_usadas {
+    height: auto;
+  }
+  #img_capa_tecnologias {
+    height: 350px;
+  }
+  #aside_direito_tecnologias {
+    display: flex;
+    flex-direction: unset;
+    width: 100%;
+    float: unset;
+    height: auto;
+    justify-content: center;
+    border-left: none;
+  }
+  #aside_esquerdo_tecnologias {
+    height: auto;
+    float: unset;
+  }
+  .linha_tecnologias {
+    width: auto;
+  }
+  .div_icones {
+    margin: 0px 10px 10px;
+  }
+}
+@media (max-width: 677px) {
+  #div_tecnologias_usadas {
+    height: 650px;
+  }
+  #img_capa_tecnologias {
+    height: 250px;
+  }
+  #aside_esquerdo_tecnologias {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  #aside_direito_tecnologias {
+    flex-direction: column;
+    align-items: center;
+  }
+  .linha_tecnologias {
+    width: 80%;
+  }
+}
+@media (max-width: 529px) {
+  #flex_layout {
+    display: flex;
+    flex-direction: column;
+    height: 185%;
+  }
+  .item_perfil {
+    display: block;
+    width: 400px;
+    margin-top: 25px;
+  }
+  .botao_sobre_nos {
+    width: 165px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  #titulo_tecnologias_usadas {
+    top: 1030px;
+    font-size: 2rem;
+  }
+  #div_tecnologias_usadas {
+    margin-top: 1125px;
+  }
+}
+@media (max-width: 411px) {
+  #logo_header {
+    height: 40px;
+  }
+  .image-profile {
+    height: 175px;
+  }
+  #flex_layout {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 360px) {
+  #img_capa_tecnologias {
+    height: 89%;
+  }
+  .image-profile {
+    height: 150px;
+  }
+  .item_perfil {
+    width: 360px;
+    margin: 23px auto 0;
+  }
+  #titulo-perfis {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .item_perfil,
+  #flex_layout {
+    width: 320px;
+  }
+  #footer_sobre_nos {
+    bottom: -20%;
+    width: 320px;
+  }
+}

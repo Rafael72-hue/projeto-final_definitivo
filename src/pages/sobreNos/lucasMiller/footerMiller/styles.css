@@ -1,0 +1,28 @@
+#footerMiller {
+  background: linear-gradient(#404040, #303030, #202020);
+  border-top: 1.5px solid #606060;
+  padding: 7.7% 0;
+  max-width: 100%;
+  color: #f1f1f1;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr;
+  margin-top: 1.2%;
+}
+
+.section-footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.title-footer-miller {
+  margin-bottom: 1%;
+  font-size: 2.3vw;
+  text-align: center;
+}
+
+#paragraph-lucasMiller-creator-profile {
+  font-size: 1.4vw;
+}

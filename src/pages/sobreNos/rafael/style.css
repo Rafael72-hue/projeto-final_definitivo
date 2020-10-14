@@ -1,0 +1,124 @@
+#section_perfil_rafael {
+  top: 90px;
+  width: 680px;
+  background: white;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 800px;
+  z-index: 2;
+  border-radius: 125px 0px 0px 0px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px #0000004a;
+}
+
+#foto-de-perfil-rafael {
+  left: 0;
+  height: 250px;
+  border: 5px solid white;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px #0000008a;
+  position: absolute;
+  z-index: 2;
+}
+
+#capa-perfil-rafael {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  border-radius: 37px 0px 0px 0px;
+  height: 240px;
+}
+
+#lado-informacoees-perfil-rafael {
+  float: left;
+  height: 100%;
+  width: 31.3%;
+  position: absolute;
+  background: #1c1e21;
+  z-index: -1;
+  border-radius: 125px 0px 0px 0px;
+}
+
+#nome-rafael {
+  margin-top: 270px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.primeiro-item {
+  margin-top: 100px;
+}
+
+.opcoes-aside-rafael {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+hr {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+#sobre-mim-rafael,
+#meus-projetos-rafael {
+  position: absolute;
+  bottom: 0;
+  top: 240px;
+  right: 0;
+  height: 560px;
+  width: 467px;
+  display: none;
+}
+#sobre-mim-rafael {
+  display: block;
+}
+
+#titulo-sobre-mim-rafael {
+  margin-top: 80px;
+  color: #5a5451;
+  text-align: center;
+}
+
+#texto-sobre-rafael {
+  font-size: 1.7rem;
+  padding: 0px 20px;
+  margin-top: 40px;
+  color: #333;
+}
+
+.size-icon {
+  margin-top: 100px;
+  height: 35px;
+  margin: 0px -20px 0px 37px;
+}
+
+.icon_curriculo {
+  margin-right: auto;
+}
+
+.size-image-rafael {
+  height: 200px;
+  margin: 10px;
+}
+
+#texto-projetos-rafael {
+  font-weight: bold;
+  padding: 35px 10px 17px;
+  color: #333;
+}
+
+#btn_voltar {
+  position: fixed;
+  z-index: 11;
+  left: 20px;
+  padding: 10px 1px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 60px;
+}

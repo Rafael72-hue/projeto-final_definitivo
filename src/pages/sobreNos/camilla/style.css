@@ -1,0 +1,118 @@
+#section_perfil_camilla {
+  margin-right: 460px;
+}
+#caixa_perfil_camilla {
+  top: 100px;
+  width: 60%;
+  background: #c179b9;
+  margin: auto;
+  position: relative;
+  height: 430px;
+  z-index: 2;
+  border-radius: 30px;
+  box-shadow: 10px #0000004a;
+}
+
+#foto-de-perfil-camilla {
+  left: 0;
+  margin: 30px 0px 0px 10px;
+  height: 250px;
+  padding: 10px;
+  border: 5px solid white;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px #0000008a;
+  z-index: 2;
+}
+
+#nome-camilla {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+#titulo-sobre-mim-camilla {
+  margin-right: 360px;
+  border-bottom: 2px solid white;
+  float: right;
+  margin-top: -360px;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+#titulo-sobre-projetos {
+  float: right;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+  margin-right: 325px;
+  margin-top: -100px;
+  color: white;
+  font-weight: bolder;
+}
+
+#texto-sobre-camilla {
+  font-size: 18px;
+  padding: 0px 10px;
+  margin-top: -320px;
+  color: #ffff;
+  text-align: justify;
+  width: 430px;
+  float: right;
+  margin-right: 40px;
+}
+
+#btn_voltar {
+  position: fixed;
+  z-index: 11;
+  left: 20px;
+  padding: 10px 1px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 60px;
+}
+
+#size-iconA {
+  margin-top: 25px;
+  margin-left: 50px;
+  background: white;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#size-iconB {
+  margin-top: 25px;
+  margin-left: 30px;
+  background: white;
+  height: 40px;
+  float: left;
+  padding: 5px;
+  border-radius: 5px;
+}
+#size-iconC {
+  margin-top: 25px;
+  margin-left: 50px;
+  background: white;
+  height: 40px;
+  float: left;
+  padding: 5px;
+  border-radius: 5px;
+}
+#projeto1 {
+  text-decoration: none;
+  float: right;
+  margin-top: -40px;
+  color: white;
+  margin-right: 270px;
+  font-size: 18px;
+}
+#projeto2 {
+  text-decoration: none;
+  float: right;
+  margin-top: -40px;
+  color: white;
+  margin-right: 150px;
+  font-size: 18px;
+}

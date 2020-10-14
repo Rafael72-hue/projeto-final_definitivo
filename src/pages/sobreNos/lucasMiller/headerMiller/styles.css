@@ -1,0 +1,126 @@
+#header-home {
+  width: 100%;
+  height: 77.5%;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(
+    #f1f1f1,
+    #bbbbbb,
+    #606060,
+    #404040,
+    #303030,
+    #202020
+  );
+  border-bottom: 1px solid #404040;
+  z-index: -1;
+}
+
+#title-projects {
+  margin: 0.5% 0;
+}
+
+.links-projects {
+  padding: 1%;
+  transition: all 0.3s;
+  border-radius: 0 2rem;
+  color: #f1f1f1;
+  width: 20%;
+}
+
+.links-projects:active {
+  background: linear-gradient(#003247, #005c83, #00b3ff);
+}
+
+.img-projects {
+  width: 4.5%;
+  transition: all 0.3s;
+}
+
+.img-projects:hover {
+  transform: translateY(-7px);
+  filter: drop-shadow(5px 18px 4px #0d1b24);
+}
+
+.img-projects:active {
+  transform: scale(0.9);
+}
+
+#section-projects {
+  position: absolute;
+  top: 51%;
+}
+
+#section-img-capa-profile {
+  width: 89%;
+  height: 40%;
+  position: absolute;
+  top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1496px) {
+  #section-img-capa-profile {
+    position: absolute;
+    top: 0;
+  }
+
+  #section-projects {
+    position: absolute;
+    top: 48%;
+  }
+}
+
+@media (max-width: 1376px) {
+  #section-img-capa-profile {
+    position: absolute;
+    top: 3.5%;
+  }
+}
+
+#section-nav {
+  border-top: 1.7px solid #f1f1f1;
+  position: absolute;
+  bottom: 1%;
+  height: 14%;
+  margin: 0.1% 0;
+  width: 63%;
+}
+
+#section-myProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 57%;
+  height: 6.5%;
+  z-index: 4;
+  position: absolute;
+  bottom: 37.3%;
+}
+
+.title-lucasMiller {
+  font-size: 1.7vw;
+  font-weight: 700;
+  color: #f1f1f1;
+  margin: 0.01% 0;
+  animation: titleLucasMiller;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes titleLucasMiller {
+  from {
+    font-size: 0.01vw;
+  }
+
+  to {
+    font-size: 1.7vw;
+  }
+}
+
+#img-capa {
+  width: 70%;
+  border-radius: 0 0 0.6rem 0.6rem;
+}

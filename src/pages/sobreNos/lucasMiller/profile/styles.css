@@ -1,0 +1,7 @@
+#img-picture-miller {
+  height: 193px;
+  border: 4px solid #817d7d;
+  z-index: 2;
+  border-radius: 50%;
+  transition: all 0.3s;
+}

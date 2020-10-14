@@ -1,0 +1,11 @@
+#button-back {
+  position: fixed;
+  top: 0;
+  cursor: pointer;
+  width: 40px;
+  margin: 5px 0 7px 15px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,57 @@
+#main-paragraph {
+  margin: 40% auto 1%;
+  width: 63%;
+  border-radius: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
+  color: #f1f1f1;
+  background: #404040;
+}
+
+@media (max-width: 1396px) {
+  #main-paragraph {
+    margin: 315px auto 1%;
+  }
+}
+
+@media (max-width: 1496px) {
+  #main-paragraph {
+    margin: 36% auto 1%;
+  }
+}
+
+@media (max-width: 1376px) {
+  #main-paragraph {
+    margin: 39.5% auto 1%;
+  }
+}
+
+.paragraph-aboutme {
+  font-size: 1.4vw;
+  margin: 1% 7% 0;
+  line-height: 1.5em;
+}
+
+.h3-aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3vw;
+}
+
+#title-aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+}
+
+#section-aboutme {
+  width: 100%;
+  padding: 2.6% 0;
+  border-radius: 2rem 0 2rem;
+}
+
+#paragraph-aboutme-only {
+  padding-bottom: 7%;
+}

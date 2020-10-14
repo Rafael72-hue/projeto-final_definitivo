@@ -1,0 +1,283 @@
+#pesquisa {
+  display: flex;
+  flex-direction: row;
+  margin: 150px auto 5px;
+  padding: 4px;
+  height: 50px;
+  border-radius: 15px 15px 0px 0px;
+  text-align: left;
+  font-family: "Kufam", cursive;
+  max-width: 1010px;
+  width: 90%;
+}
+
+#footer-criadores {
+  padding: 53px 0;
+}
+
+#inputPesquisar {
+  font-family: "Kufam", cursive;
+  padding: 1rem;
+  width: 250px;
+  border-radius: 50px;
+  border: none;
+  background: rgb(218, 217, 217);
+  float: right;
+  outline: none;
+}
+
+label {
+  font-size: 1.9rem;
+  padding: 1px 12px;
+}
+
+#search {
+  border-radius: 1rem;
+  border: 1.7px solid #fafafa;
+  border-radius: 0.8rem;
+  border: 2px solid #fafafa;
+  padding: 7px 20px;
+  color: #155670;
+  font-weight: 700;
+  transition: all 0.3s;
+  background: #dad7d7;
+  margin-left: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+#search:hover {
+  background: #155670;
+  color: #f1f1f1;
+}
+
+#conteudo {
+  font-family: "Kufam", Arial, Helvetica, sans-serif;
+  border-radius: 0px 0px 15px 15px;
+  margin: 0px auto 50px;
+  width: 1010px;
+}
+
+#tituloConteudo {
+  padding: 25px 0 15px;
+  text-align: center;
+}
+
+header {
+  font-family: "Kufam", Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  box-shadow: 0px 0px 1px black;
+}
+h1 {
+  color: #066fe5;
+}
+
+#searchPagePrev {
+  margin-left: 45%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+#searchPagePrev,
+#searchPageNext {
+  padding: 10px;
+  border-radius: 0.8rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: darkgray;
+  width: 70px;
+}
+#searchPageNext:hover {
+  border: 2px solid gray;
+}
+#searchPagePrev:hover {
+  border: 2px solid gray;
+}
+#searchPagePrev,
+#searchPageNext ::selection {
+  border-radius: 0.8rem !important;
+}
+
+#mensagem-erro,
+#loading {
+  text-align: center;
+}
+
+#popUp_error {
+  height: 200px;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 99;
+  text-align: center;
+  background: #f5f2f2;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px black;
+  display: none;
+}
+#h1_popUp {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+#texto_popUp {
+  font-size: 16pt;
+  color: #333;
+}
+#btn_popUp {
+  background: #4daffb;
+  color: #fff;
+  font-size: 14pt;
+  padding: 5px 14px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#seta-esquerda {
+  border-right: 30px solid #3c3c3c;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  float: left;
+}
+
+#seta-direita {
+  border-left: 30px solid #3c3c3c;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  float: right;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 837px) {
+  #conteudo {
+    width: 90%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 452px) {
+  #seta-esquerda {
+    border-right: 10px solid #3c3c3c;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    float: left;
+  }
+  #seta-direita {
+    border-left: 10px solid #3c3c3c;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    float: right;
+  }
+  html {
+    font-size: 50%;
+  }
+  #inputPesquisar {
+    width: 237px;
+    margin-left: 15px;
+    border-radius: 50px 0px 0px 50px;
+  }
+  label {
+    display: none;
+  }
+  #search {
+    border-radius: 0px 50px 50px 0px;
+    margin-left: 0px;
+    height: 46px;
+    margin-top: -2px;
+  }
+  #icone-home {
+    left: 10px;
+    top: 15px;
+  }
+  #icone-chat {
+    left: 50px;
+  }
+  #icone-perfil {
+    right: 50px;
+    top: 15px;
+  }
+  #icone-home,
+  #icone-chat,
+  #icone-perfil,
+  #mostrar,
+  #fechar {
+    top: 20px;
+    height: 25px;
+  }
+  #mostrar {
+    top: 14px;
+  }
+  #div__opcoes {
+    width: 157px;
+    height: 120px;
+  }
+  .container {
+    display: flex;
+    overflow: auto;
+    flex-direction: unset;
+  }
+  #caixa {
+    margin: 10px;
+    height: 306px;
+  }
+  footer {
+    margin-top: -6px;
+  }
+  #lblexit {
+    font-size: 2rem;
+  }
+  .voltarAvançar {
+    height: 260px;
+    width: 50px;
+  }
+  #searchPagePrev,
+  #searchPageNext {
+    position: absolute;
+    top: 367px;
+    margin: 0;
+    background: #d4d3d370;
+    width: auto;
+  }
+  #searchPageNext {
+    right: 0;
+  }
+  #pesquisa {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 68px;
+  }
+  #conteudo {
+    width: 100%;
+  }
+  #logo_header {
+    height: 45px;
+  }
+  #popUp_error {
+    width: 300px;
+    height: 150px;
+  }
+  #texto_popUp {
+    font-size: 1.8rem;
+  }
+  #lblexit,
+  #lbl_dark_mode {
+    display: block;
+  }
+}

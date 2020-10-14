@@ -1,0 +1,110 @@
+.container-perfil {
+  margin-top: 0;
+  padding: 0;
+  background: #f1f1f1;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+.card-container {
+  width: 680px;
+  height: 480px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 1px 10px 1px #000;
+  overflow: hidden;
+  display: flex;
+}
+.mensagem {
+  font-size: 20pt;
+}
+.upper-container {
+  height: 170px;
+  width: 680px;
+  background: #7f00ff;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 3;
+}
+
+.image-container {
+  background: white;
+  width: 160px;
+  height: 150px;
+  border-radius: 50px;
+  padding: 6px;
+  margin-top: 10px;
+  margin-left: 19px;
+}
+.image-container img {
+  width: 148px;
+  height: 140px;
+  padding: 80px;
+  border-radius: 47px;
+  overflow: hidden;
+}
+
+.lower-container {
+  width: 680px;
+  height: 480px;
+  border-radius: 4px;
+  background: ghostwhite;
+}
+
+.lower-container .personal-container {
+  margin-top: 190px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.personal-container p,
+h3 {
+  text-align: left;
+  margin-left: 32px;
+  padding-bottom: 10px;
+  padding-top: 8px;
+}
+
+#img-perfil {
+  float: right;
+  padding: 0px;
+  margin: 2 2 30px 30px;
+}
+
+.title-container {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 230px;
+  padding: 0px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.title-container h1 {
+  box-sizing: border-box;
+  font: 245% georgia, times, "times new roman", serif;
+  color: whitesmoke !important;
+  margin-bottom: auto;
+}
+
+.title-container span {
+  box-sizing: border-box;
+  font: 145% georgia, times, "times new roman", serif;
+  color: whitesmoke !important;
+}
+
+#btn_voltar {
+  position: fixed;
+  z-index: 999;
+  left: 20px;
+  padding: 10px 1px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 60px;
+}

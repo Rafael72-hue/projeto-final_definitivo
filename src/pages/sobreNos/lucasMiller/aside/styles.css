@@ -1,0 +1,35 @@
+#aside-miller {
+  color: #f1f1f1;
+  background: #404040;
+  width: 63%;
+  border-radius: 2rem;
+  margin: auto;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr;
+}
+
+.section-asideMiller {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* 
+#img-footer-github {
+  margin-right: 1%;
+} */
+
+.img-aside {
+  border: 0;
+  width: 40%;
+  transition: ease 0.4s;
+}
+
+.img-aside:hover {
+  transform: translateY(-2px);
+}
+
+.img-aside:active {
+  transform: scale(0.9);
+}

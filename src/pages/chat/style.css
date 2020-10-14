@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+#div_chat {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+#header_chat {
+  z-index: 1;
+}
+#aside_chat {
+  float: left;
+  height: 100%;
+  width: 30%;
+  background: #102c69;
+  font-family: "Poppins", sans-serif;
+  display: block;
+}
+#titulo_chat {
+  text-align: center;
+  color: #ccc;
+  margin-top: 15px;
+}
+#section_chat {
+  float: right;
+  height: 100%;
+  width: 70%;
+  font-family: "Poppins", sans-serif;
+}
+#foto_chat {
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  left: 35px;
+}
+#nome_usuario_chat {
+  position: absolute;
+  left: 50px;
+  position: absolute;
+  left: 95px;
+  font-size: 2rem;
+  color: #333;
+}
+.icones_chat {
+  height: 25px;
+  cursor: pointer;
+}
+#div_icones_chat {
+  position: absolute;
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  right: 33%;
+}
+.one,
+.two,
+.three {
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background: #000;
+}
+#mais_opcoes_chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#parte-de-baixo-chat {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  padding: 0px;
+  height: 55px;
+  background: #e8e8e8;
+  width: 100%;
+}
+#input_digitar {
+  width: 48%;
+  position: absolute;
+  left: 100px;
+  padding: 12px;
+  border-radius: 3px;
+  border: 1px solid #afabab;
+  top: 8px;
+}
+#botao_enviar {
+  height: 30px;
+  position: absolute;
+  right: 35%;
+  top: 12px;
+  cursor: pointer;
+}
+#botao_gravar {
+  height: 35px;
+  position: absolute;
+  right: 31%;
+  top: 8px;
+  cursor: pointer;
+}
+
+#botao_galeria {
+  height: 35px;
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  cursor: pointer;
+}
+#res {
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 82%;
+  width: 70%;
+  /* right: 20px; */
+  position: absolute;
+  top: 64px;
+}
+#res p {
+  text-align: right;
+  background: white;
+  width: fit-content;
+  padding: 9px;
+  border-radius: 15px;
+  float: right;
+  margin-right: 18px;
+  margin: 20px 0;
+  margin-left: 77%;
+  margin-top: 88px;
+}
+.chat_usuario {
+  height: 70px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.div_usuario_chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+#conversa_com_paulo_lima {
+  float: right;
+  height: 56%;
+  top: 60px;
+  width: 70%;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  right: 0;
+  color: #333;
+}
+#icone_home_chat {
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  left: 22px;
+  cursor: pointer;
+}
+#primeira_mensagem_paulo {
+  background: blue !important;
+  color: white !important;
+  width: 368px !important;
+  padding: 15px !important;
+  text-align: left !important;
+  border-radius: 15px !important;
+  margin: 15px !important;
+}
+
+#resposta_com_paulo {
+  background: white !important;
+  width: 150px !important;
+  padding: 9px !important;
+  border-radius: 15px !important;
+  position: absolute !important;
+  right: 20px !important;
+  margin-top: 123px !important;
+}
+#segunda-mensagem-paulo {
+  background: blue !important;
+  color: white !important;
+  width: 368px !important;
+  padding: 15px !important;
+  text-align: left !important;
+  border-radius: 15px !important;
+  margin: 15px !important;
+  margin-top: 72px !important;
+}
+#segunda-resposta {
+  background: white !important;
+  width: 236px !important;
+  padding: 9px !important;
+  border-radius: 15px !important;
+  position: absolute !important;
+  right: 20px !important;
+  margin-top: 283px !important;
+}
+#botao_voltar {
+  height: 30px;
+  position: absolute;
+  left: 6px;
+  display: none;
+}
+
+aside hr {
+  margin-top: 15px;
+}
+@media (max-width: 414px) {
+  #section_chat {
+    float: unset;
+    background: #cccccc;
+    width: 100%;
+  }
+  #aside_chat {
+    height: 100%;
+    display: none;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+  }
+  #conversa_com_paulo_lima {
+    font-size: 1.4rem;
+    width: 100%;
+    height: 44%;
+  }
+  #div_icones_chat {
+    right: 8%;
+  }
+  #primeira_mensagem_paulo,
+  #segunda-mensagem-paulo {
+    width: auto;
+  }
+  #botao_gravar {
+    right: 0;
+  }
+  #botao_enviar {
+    right: 11%;
+  }
+  #res {
+    width: 100%;
+  }
+  #botao_voltar {
+    display: block;
+  }
+  #primeira_mensagem_paulo,
+  #segunda-mensagem-paulo {
+    width: 225px !important;
+  }
+  #resposta_com_paulo {
+    margin-top: 145px !important;
+  }
+  #res p {
+    margin-left: 260px;
+    margin-top: 75px;
+  }
+}
